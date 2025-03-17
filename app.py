@@ -12,7 +12,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 
 
-OPENAI_API_KEY=os.getenv("OPENAI")
+OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
 # Set page config
 st.set_page_config(
     page_title="Resume Ranker (GPT-4o)",
