@@ -1,0 +1,6 @@
+zipfile
+langchain_core
+langchain_openai
+pandas
+PyPDF2
+io
