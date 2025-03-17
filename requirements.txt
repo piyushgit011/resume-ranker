@@ -1,5 +1,6 @@
-langchain_core
-langchain_openai
-pandas
-PyPDF2
-io
+streamlit>=1.24.0
+zipfile36
+PyPDF2>=2.0.0
+pandas>=1.3.0
+langchain-openai>=0.0.1
+langchain-core>=0.0.1
