@@ -76,7 +76,7 @@ def analyze_resume(resume_text, prompt, model="gpt-4o"):
         # Format the prompt
         formatted_prompt = prompt_template.format(
             criteria=prompt,
-            resume_text=resume_text[:8000]  # Limiting text to avoid token limits
+            resume_text=resume_text[:50000]  # Limiting text to avoid token limits
         )
         
         # Send to LLM
