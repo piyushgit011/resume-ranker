@@ -1,0 +1,209 @@
+/* Custom CSS for Advanced Resume Ranker */
+
+/* Main layout improvements */
+.main > div {
+    padding-top: 2rem;
+}
+
+/* Candidate cards */
+.candidate-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+}
+
+.candidate-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Score badges */
+.score-excellent {
+    background-color: #28a745;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.score-very-good {
+    background-color: #ffc107;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.score-good {
+    background-color: #fd7e14;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.score-average {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.score-poor {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Priority indicators */
+.priority-immediate {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.priority-strong {
+    background-color: #ffc107;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.priority-consider {
+    background-color: #fd7e14;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Skills tags */
+.skill-tag {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    margin: 0.1rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.skill-tag-required {
+    background-color: #28a745;
+}
+
+.skill-tag-preferred {
+    background-color: #17a2b8;
+}
+
+.skill-tag-bonus {
+    background-color: #6f42c1;
+}
+
+/* Dashboard cards */
+.metric-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* Progress indicators */
+.progress-excellent {
+    background-color: #28a745;
+}
+
+.progress-good {
+    background-color: #ffc107;
+}
+
+.progress-average {
+    background-color: #fd7e14;
+}
+
+.progress-poor {
+    background-color: #dc3545;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .candidate-card {
+        padding: 0.75rem;
+    }
+    
+    .metric-card {
+        padding: 1rem;
+    }
+    
+    .metric-value {
+        font-size: 1.5rem;
+    }
+}
+
+/* Loading animations */
+.loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Alert styles */
+.alert-success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    color: #856404;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
