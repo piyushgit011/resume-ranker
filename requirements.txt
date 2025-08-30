@@ -4,3 +4,5 @@ PyPDF2>=2.0.0
 pandas>=1.3.0
 langchain-openai>=0.0.1
 langchain-core>=0.0.1
+langchain-docstore>=0.0.1
+chromadb>=0.4.24
